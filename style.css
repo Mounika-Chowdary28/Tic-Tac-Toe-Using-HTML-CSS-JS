@@ -1,0 +1,55 @@
+body{
+    background-color: #288383;
+    text-align: center;
+}
+#main{
+    height:400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#game{
+    height:310px;
+    width:310px;
+    gap:5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height:100px;
+    width:100px;
+    border-radius: 5px;
+    border:none;
+    font-size: 30px;
+}
+
+#btn{
+    padding:10px;
+    font-size: 15px;
+    background-color: rgb(62, 55, 55);
+    color:white;
+    border:none;
+    
+}
+
+#newgame{
+    padding:10px;
+    font-size: 15px;
+    background-color: rgb(62, 55, 55);
+    color:white;
+    border:none;
+    margin-bottom:20px;
+}
+
+#new{
+    color:aliceblue;
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.hide{
+    display:none;
+}
